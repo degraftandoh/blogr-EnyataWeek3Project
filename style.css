@@ -1,0 +1,698 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main1{
+    overflow: hidden;
+    padding-bottom: 156px;
+    border-radius: 0px 0px 0px 100px;
+    background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+}
+
+.main1-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 108px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 24px 0px 24px;
+    z-index: 1;
+}
+
+.desktop-nav{
+    display: none;
+}
+
+.main1-content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    z-index: 1;
+}
+.main1-image {
+    position: absolute;
+    top:0%;
+    right: 0px;
+}
+
+.main1-dimage{
+    display: none;
+}
+
+.main1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.main1-text h2{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main1-text p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main1-button{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.main1-button h4{
+    color: #FF505C;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 28px;
+    background-color: #FFF;
+    padding: 15px 17px;
+}
+
+.main1-button h5{
+    color: #FFF;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 28px;
+    border: 1px solid #FFF;
+    padding: 15px 25px;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.main2-text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.main2-text1 h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    padding-top: 100px;
+}
+
+.main2-text2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 150px;
+}
+
+.main2-text2-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.main2-text2-top h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 33px;
+   padding-right: 24px;
+}
+
+.main2-text2-top p{
+    color: #4C5862;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+   padding-left: 33px;
+   padding-right: 24px;
+}
+
+.main2-text2-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 100px;
+}
+
+.main2-text2-down h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 33px;
+   padding-right: 24px;
+}
+
+.main2-text2-down p{
+    color: #4C5862;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding-left: 33px;
+   padding-right: 24px;
+}
+
+.main2-dimage{
+    display: none;
+}
+
+.main3{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 100px;
+    background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+}
+
+.main3-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main3-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+.main3-text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 220px;
+}
+
+.main3-text p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 93px;
+}
+
+.main3-mimage{
+    position: absolute;
+    top: 0%;
+}
+
+.main3-mimage2{
+    position: absolute;
+    top: 1800px;
+    z-index: 1;
+}
+
+.main3-dimage, .main3-dimage2{
+    display: none;
+}
+
+.main4-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 154px;
+    gap: 83px;
+    padding-bottom: 100px;
+}
+
+.main4-textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main4-text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main4-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main4-text1 h3, .main4-text2 h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.main4-text1 p, .main4-text2 p{
+    color: #4C5862;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main4-dimage{
+    display: none;
+}
+
+footer{
+    border-radius: 0px 100px 0px 0px;
+    background-color: #24242C;
+}
+
+.main5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.main5-text1, .main5-text2, .main5-text3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main5-text1 h4, .main5-text2 h4, .main5-text3 h4{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.main5-text1 h5, .main5-text2 h5, .main5-text3 h5{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    opacity: 0.75;
+}
+
+
+
+@media screen and (min-width: 430px){
+    .main3-mimage2{
+        top: 1700px;
+    }
+
+}
+
+@media screen and (min-width: 470px){
+    .main3-mimage2{
+        top: 1600px;
+    }
+
+}
+
+@media screen and (min-width: 580px){
+    .main3-mimage2{
+        top: 1500px;
+    }
+
+}
+
+@media screen and (min-width: 850px){
+    .main3-mimage2{
+        top: 1400px;
+    }
+
+}
+
+@media screen and (min-width: 974px){
+    .menu{
+        display: none;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .desktop-nav{
+       display: block;
+       padding-top: 59px;
+       padding-left: 167px;
+       padding-right: 160px; 
+       z-index: 1;
+    }
+
+    .main1{
+        gap: 120px;
+    }
+
+    .main1-image{
+        display: none;
+    }
+
+    .main1-dimage {
+        display: block;
+        position: absolute;
+        top:0%;
+        right: 0px;
+    }
+
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .nav-left{
+        display: flex;
+        gap: 32px;
+    }
+
+    .left-items{
+        display: flex;
+        gap: 8px;
+    }
+
+    .left-items h5{
+        color: #FFF;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .nav-right{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .nav-right h5{
+        color: #FFF;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .nav-right h4{
+        color: #FF505C;
+        text-align: right;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 28px;
+        background-color: #FFF;
+        padding: 15px 40px;
+    }
+
+    .main1-text h2{
+        font-size: 64px;
+        letter-spacing: -1.92px;
+        max-width: 920px;
+    }
+
+    .main1-text p{
+        font-size: 20px;
+        max-width: none;
+    }
+
+    .main2{
+        gap: 93px;
+        position: relative;
+        align-items: flex-start;
+    }
+
+    .main2-content{
+        display: flex;
+    }
+
+    .main2-dimage{
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 70px;
+        z-index: -1;
+    }
+
+    .main2-mimage{
+        display: none;
+    }
+
+    .main2-text1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+
+    .main2-text2{
+        padding-left: 165px;
+    }
+
+    .main2-text1 h3{
+        font-size: 40px;
+        letter-spacing: -1.2px;
+        padding-top: 150px;
+        padding-left: 165px;
+    }
+
+    .main2-text2-top{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .main2-text2-top h3{
+        padding: 0px;
+    }
+
+    .main2-text2-top p{
+        width: 540px;
+        padding: 0px;
+        text-align: left;
+        padding-right: 90px;
+    }
+
+    .main2-text2-down{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding-bottom: 0px;
+    }
+
+    .main2-text2-down h3{
+        padding: 0px;
+    }
+
+    .main2-text2-down p{
+        width: 540px;
+        padding: 0px;
+        text-align: left;
+        padding-right: 90px;
+    }
+
+    .main3-mimage, .main3-mimage2{
+        display: none;
+    }
+
+    .main3{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .main3-text{
+        align-items: flex-end;
+        padding-right: 165px;
+    }
+
+    .main3-text h3{
+        padding-top: 111px;
+    }
+
+    .main3-text p{ 
+        width: 540px;
+        padding-left: 0%;
+        padding-bottom: 111px;
+    }
+
+    .main3-dimage{
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    .main3-dimage2{
+        display: block;
+        position: absolute;
+        left: 140px;
+        top: 830px;
+        z-index: 1;
+    }
+
+    .main4-mimage{
+        display: none;
+    }
+
+    .main4-dimage{
+        display: block;
+    }
+
+    .main4-content{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 123px;
+    }
+
+    .main4-textbox{
+        padding-top: 200px;
+        gap: 64px;
+    }
+    
+    .main4-text1{
+        align-items: flex-start;
+    }
+
+    .main4-text2{
+        align-items: flex-start;
+    }
+
+    .main4-text1 p, .main4-text2 p{
+        padding-left: 0px;
+        text-align: left;
+        padding-right: 165px;
+    }
+
+    .main5{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
+        padding-top: 70px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .main5-logo{
+        padding-bottom: 230px;
+    }
+
+    .main5-text2{
+        padding-bottom: 40px;
+    }
+
+    .main5-text3{
+        padding-bottom: 80px;
+    }
+
+    .main5-text1, .main5-text2, .main5-text3{
+        align-items: flex-start;
+    }
+}
+
+
+@media screen and (min-width: 974px) and (max-width: 1304px){
+    .main2-text2{
+        background-color: white;
+    }
+    .main3-text {
+        background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);;
+    }
+    .main3-text h3{
+        padding-left: 0px;
+    }
+    
+}
